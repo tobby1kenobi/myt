@@ -1,0 +1,14 @@
+.header .logo .nav {
+ display: flex;
+ font-family: Verdana;
+ font-size: 14px;
+ font-weight: bold;
+ justify-content: flex-end;
+}
+
+.nav,
+ li {
+  display: flex;
+  justify-content: flex-end;
+
+}
