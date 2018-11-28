@@ -1,14 +1,25 @@
-.header .logo .nav {
+.header {
  display: flex;
+ height: 80px;
+ width :100;
  font-family: Verdana;
  font-size: 14px;
  font-weight: bold;
- justify-content: flex-end;
+ justify-content: flex-start;
+ align-items: center;
+ flex-grow: 2;
 }
 
-.nav,
- li {
-  display: flex;
+#logo {
+  color: MediumAquaMarine;
+}
+
+#nav {
+  display: inline-flex;
+
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
   justify-content: flex-end;
-
-}
+  align-items: center;
+  }
