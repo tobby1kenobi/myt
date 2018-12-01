@@ -30,15 +30,29 @@
    align-items: center;
  }
 
+ .main {
+   display: flex;
+   width: 1600 px;
+   order: 1px black solid;
+
+ }
+
  .column.large {
+  display: flex;
+  flex-direction: column;
   width: 630px;
-  border: 3px solid black;
+    border: 3px solid black;
+
 }
 
 .column.medium {
+  display: flex;
+  flex-direction: column;
   width: 300px;
 }
 
 .column.small {
+  display: flex;
+  flex-direction: column;
   width: 240px;
 }
