@@ -32,31 +32,32 @@
 
  .main {
    display: flex;
-   justify-content: space-between;
-   height: 1000px;
    position: relative;
    width: 1600px;
-   top: 80px;
+   top: 120px;
+
    order: 1px black solid;
 
- }
+    }
 
- .column.large {
+ .column .large {
   display: flex;
   flex-direction: column;
+  position: relative;
   width: 630px;
+  height: 920px;
   border: 1px black solid;
 
 }
 
-.column.medium {
+.column .medium {
   display: flex;
   flex-direction: column;
   width: 300px;
   border: 1px black solid;
 }
 
-.column.small {
+.column .small {
   display: flex;
   flex-direction: column;
   width: 240px;
@@ -65,6 +66,9 @@
 
 .box {
   display: flex;
+  flex-direction: column;
+
+  align-content: flex-start;
   border: 1px black solid;
 }
 
